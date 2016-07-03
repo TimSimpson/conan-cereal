@@ -4,7 +4,7 @@ import os
 
 class cerealConan(ConanFile):
     name = "cereal"
-    version = "1.2.0"
+    version = "1.2-0"
     license = "See: https://github.com/USCiLab/cereal/blob/master/LICENSE"
     url = "https://github.com/TimSimpson/conan-cereal"
 

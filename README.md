@@ -3,9 +3,9 @@ Conan (https://conan.io) package for C++ library Cereal (https://github.com/USCi
 
 # Version Number Schema
 
-I'm trying to match the number of cereal, plus an extra number which represents
-any changes to the package I've had to make (b/c in theory there may be
-multiple packages for each official release of Cereal).
+I'm trying to match the number of cereal, plus an extra number seperated by a
+dash which represents any changes to the package I've had to make (b/c in
+theory there may be multiple packages for each official release of Cereal).
 
 # Credit
 

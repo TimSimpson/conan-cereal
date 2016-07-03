@@ -8,7 +8,7 @@ username = os.getenv("CONAN_USERNAME", "memsharded")
 
 class cerealTestConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
-    requires = "cereal/1.2.0@%s/%s" % (username, channel)
+    requires = "cereal/1.2-0@%s/%s" % (username, channel)
     generators = "cmake"
 
     def build(self):
